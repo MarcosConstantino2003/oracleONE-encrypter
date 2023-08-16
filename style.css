@@ -1,0 +1,135 @@
+*{
+    background: #F3F5FC;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+
+}
+
+.logo{
+    height: 48px;
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+    border-radius: 5px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 10%;
+}
+
+textarea{
+    margin: 10px;
+    border: none;
+    outline: none;
+    padding: 3px;
+    resize: none;
+}
+
+.textouser{
+    color: #0A3871;
+    width: 577px;
+    top: 168px;
+    left: 240px;
+    text-transform: lowercase;
+}
+
+
+.textouser::placeholder {
+    color: #0A3871;
+    text-transform: none;
+}
+
+
+.textores{
+    width: 400px;
+    height: 694px;
+    position: relative;
+    bottom: 6%;
+    border-radius: 32px;
+    background: white;
+    background-image: url(img/muneco.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin-left: 30%;
+    background-position-x: center;
+    background-position-y: 25%;
+    box-shadow: 0px 24px 32px -8px #00000014;   
+    text-transform: lowercase;
+}
+
+.textores::placeholder{
+    text-align: center;
+    padding-top: 90%;
+    font-size: 22px;
+    color: black;
+    text-transform: none;
+}
+
+button{
+    display: flex;
+    margin-top: 18px;
+    margin-left: 2px;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 328px;
+    height: auto;
+}
+
+.botones{   
+    display: flex;
+}
+
+.encriptar{
+    background: #0A3871;
+    color:white;
+    border-color: white;
+    transition: 0.3s;
+    padding-left: 19%;
+}
+
+.desencriptar{
+    background: #D8DFE8;
+    color: #0A3871;
+    border-color: #0A3871;
+    margin-left: 2%;
+    transition: 0.3s;
+    padding-left: 16%;
+}
+
+.encriptar:hover{
+    background-color: #37a3e7;
+    color: black;
+    transition: 0.3s;
+}
+
+.desencriptar:hover{
+    background-color: #122a49;
+    color: white;
+    transition: 0.3s;
+}
+
+.copiar{
+    position: relative;
+    bottom: 20.5%;
+    left: 40%;
+    color: #0A3871;
+    border-color: #0A3871;
+    transition: 0.3s;
+    padding-left: 32%;
+}
+
+.copiar:hover{
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+.informacion{
+    font-size: 12px;
+    color: #495057;
+    ;
+}
